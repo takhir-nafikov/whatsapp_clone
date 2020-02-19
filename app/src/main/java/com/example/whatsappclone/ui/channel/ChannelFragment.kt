@@ -21,7 +21,7 @@ import com.getstream.sdk.chat.viewmodel.ChannelViewModelFactory
 
 class ChannelFragment : Fragment() {
 
-    // TODO
+  // TODO
 
 
 }

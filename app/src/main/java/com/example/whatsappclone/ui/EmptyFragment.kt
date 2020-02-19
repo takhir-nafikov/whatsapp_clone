@@ -10,10 +10,10 @@ import com.example.whatsappclone.ui.home.TAB_TITLES
 
 class EmptyFragment : Fragment(R.layout.fragment_empty) {
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        arguments?.takeIf { it.containsKey(EMPTY_TITLE) }?.apply {
-            val textView: TextView = view.findViewById(R.id.text1)
-            textView.text = TAB_TITLES.getOrDefault(getInt(EMPTY_TITLE)-1, "camera")
-        }
+  override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+    arguments?.takeIf { it.containsKey(EMPTY_TITLE) }?.apply {
+      val textView: TextView = view.findViewById(R.id.text1)
+      textView.text = TAB_TITLES.getOrDefault(getInt(EMPTY_TITLE)-1, "camera")
     }
+  }
 }

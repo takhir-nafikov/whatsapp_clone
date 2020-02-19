@@ -10,5 +10,5 @@ import com.getstream.sdk.chat.model.Channel
 
 class CustomViewHolderFactory : ChannelViewHolderFactory() {
 
-    // TODO
+  // TODO
 }

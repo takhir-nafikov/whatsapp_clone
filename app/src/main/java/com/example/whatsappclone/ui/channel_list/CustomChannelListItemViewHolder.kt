@@ -9,6 +9,6 @@ import java.text.SimpleDateFormat
 
 class CustomChannelListItemViewHolder( v : View) : ChannelListItemViewHolder(v) {
 
-    // TODO
+  // TODO
 
 }

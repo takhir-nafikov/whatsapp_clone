@@ -21,7 +21,7 @@ const val USER_ID = "empty-queen-5"
 const val USER_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiZW1wdHktcXVlZW4tNSJ9.RJw-XeaPnUBKbbh71rV1bYAKXp6YaPARh68O08oRnOU"
 
 class ChannelListFragment : Fragment() {
-   // TODO
+  // TODO
 }
 
 
